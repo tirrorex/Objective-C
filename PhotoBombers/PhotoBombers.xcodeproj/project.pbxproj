@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6C11BA1B725C50001C1F26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11B91B725C50001C1F26 /* main.m */; };
+		CA6C11BD1B725C50001C1F26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11BC1B725C50001C1F26 /* AppDelegate.m */; };
+		CA6C11BF1B725C50001C1F26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6C11BE1B725C50001C1F26 /* Images.xcassets */; };
+		CA6C11C21B725C50001C1F26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6C11C01B725C50001C1F26 /* LaunchScreen.xib */; };
+		CA6C11CE1B725C50001C1F26 /* PhotoBombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11CD1B725C50001C1F26 /* PhotoBombersTests.m */; };
+		CA6C11D91B725C66001C1F26 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11D81B725C66001C1F26 /* PhotosViewController.m */; };
+		CA6C11DC1B726350001C1F26 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11DB1B726350001C1F26 /* PhotoCell.m */; };
+		CA6C11E21B728DE7001C1F26 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11E11B728DE7001C1F26 /* PhotoController.m */; };
+		CA6C11E51B729509001C1F26 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11E41B729509001C1F26 /* DetailViewController.m */; };
+		CA6C11E81B729C0C001C1F26 /* PresentDetailtransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11E71B729C0C001C1F26 /* PresentDetailtransition.m */; };
+		CA6C11EB1B729F74001C1F26 /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6C11EA1B729F74001C1F26 /* DismissDetailTransition.m */; };
+		F040763BE8127223D0A15B59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE2741E9B4416D345AECCA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6C11C81B725C50001C1F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6C11AC1B725C50001C1F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6C11B31B725C50001C1F26;
+			remoteInfo = PhotoBombers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EFA90F59300E135B81C0CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1EBB5925B22A1C52E91E7EDE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B2BE2741E9B4416D345AECCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6C11B41B725C50001C1F26 /* PhotoBombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBombers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6C11B81B725C50001C1F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6C11B91B725C50001C1F26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA6C11BB1B725C50001C1F26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA6C11BC1B725C50001C1F26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA6C11BE1B725C50001C1F26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA6C11C11B725C50001C1F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA6C11C71B725C50001C1F26 /* PhotoBombersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBombersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6C11CC1B725C50001C1F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6C11CD1B725C50001C1F26 /* PhotoBombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBombersTests.m; sourceTree = "<group>"; };
+		CA6C11D71B725C66001C1F26 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		CA6C11D81B725C66001C1F26 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		CA6C11DA1B726350001C1F26 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		CA6C11DB1B726350001C1F26 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		CA6C11DF1B727278001C1F26 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA6C11E01B728DE7001C1F26 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoController.h; sourceTree = "<group>"; };
+		CA6C11E11B728DE7001C1F26 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoController.m; sourceTree = "<group>"; };
+		CA6C11E31B729509001C1F26 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CA6C11E41B729509001C1F26 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CA6C11E61B729C0C001C1F26 /* PresentDetailtransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailtransition.h; sourceTree = "<group>"; };
+		CA6C11E71B729C0C001C1F26 /* PresentDetailtransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailtransition.m; sourceTree = "<group>"; };
+		CA6C11E91B729F74001C1F26 /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
+		CA6C11EA1B729F74001C1F26 /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6C11B11B725C50001C1F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F040763BE8127223D0A15B59 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6C11C41B725C50001C1F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6C11AB1B725C50001C1F26 = {
+			isa = PBXGroup;
+			children = (
+				CA6C11DF1B727278001C1F26 /* Podfile */,
+				CA6C11B61B725C50001C1F26 /* PhotoBombers */,
+				CA6C11CA1B725C50001C1F26 /* PhotoBombersTests */,
+				CA6C11B51B725C50001C1F26 /* Products */,
+				F58B29548FF028ACAE593D47 /* Pods */,
+				FA8E250AA166EF673D824123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6C11B51B725C50001C1F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6C11B41B725C50001C1F26 /* PhotoBombers.app */,
+				CA6C11C71B725C50001C1F26 /* PhotoBombersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6C11B61B725C50001C1F26 /* PhotoBombers */ = {
+			isa = PBXGroup;
+			children = (
+				CA6C11BB1B725C50001C1F26 /* AppDelegate.h */,
+				CA6C11BC1B725C50001C1F26 /* AppDelegate.m */,
+				CA6C11D71B725C66001C1F26 /* PhotosViewController.h */,
+				CA6C11D81B725C66001C1F26 /* PhotosViewController.m */,
+				CA6C11E01B728DE7001C1F26 /* PhotoController.h */,
+				CA6C11E11B728DE7001C1F26 /* PhotoController.m */,
+				CA6C11E31B729509001C1F26 /* DetailViewController.h */,
+				CA6C11E41B729509001C1F26 /* DetailViewController.m */,
+				CA6C11E61B729C0C001C1F26 /* PresentDetailtransition.h */,
+				CA6C11E71B729C0C001C1F26 /* PresentDetailtransition.m */,
+				CA6C11E91B729F74001C1F26 /* DismissDetailTransition.h */,
+				CA6C11EA1B729F74001C1F26 /* DismissDetailTransition.m */,
+				CA6C11DA1B726350001C1F26 /* PhotoCell.h */,
+				CA6C11DB1B726350001C1F26 /* PhotoCell.m */,
+				CA6C11BE1B725C50001C1F26 /* Images.xcassets */,
+				CA6C11C01B725C50001C1F26 /* LaunchScreen.xib */,
+				CA6C11B71B725C50001C1F26 /* Supporting Files */,
+			);
+			path = PhotoBombers;
+			sourceTree = "<group>";
+		};
+		CA6C11B71B725C50001C1F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6C11B81B725C50001C1F26 /* Info.plist */,
+				CA6C11B91B725C50001C1F26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA6C11CA1B725C50001C1F26 /* PhotoBombersTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6C11CD1B725C50001C1F26 /* PhotoBombersTests.m */,
+				CA6C11CB1B725C50001C1F26 /* Supporting Files */,
+			);
+			path = PhotoBombersTests;
+			sourceTree = "<group>";
+		};
+		CA6C11CB1B725C50001C1F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6C11CC1B725C50001C1F26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F58B29548FF028ACAE593D47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11EFA90F59300E135B81C0CF /* Pods.debug.xcconfig */,
+				1EBB5925B22A1C52E91E7EDE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA8E250AA166EF673D824123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2BE2741E9B4416D345AECCA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6C11B31B725C50001C1F26 /* PhotoBombers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6C11D11B725C50001C1F26 /* Build configuration list for PBXNativeTarget "PhotoBombers" */;
+			buildPhases = (
+				2AF69FAF468A0AE536A725A8 /* Check Pods Manifest.lock */,
+				CA6C11B01B725C50001C1F26 /* Sources */,
+				CA6C11B11B725C50001C1F26 /* Frameworks */,
+				CA6C11B21B725C50001C1F26 /* Resources */,
+				2C3057358DEA9B2F01A0EA41 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoBombers;
+			productName = PhotoBombers;
+			productReference = CA6C11B41B725C50001C1F26 /* PhotoBombers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6C11C61B725C50001C1F26 /* PhotoBombersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6C11D41B725C50001C1F26 /* Build configuration list for PBXNativeTarget "PhotoBombersTests" */;
+			buildPhases = (
+				CA6C11C31B725C50001C1F26 /* Sources */,
+				CA6C11C41B725C50001C1F26 /* Frameworks */,
+				CA6C11C51B725C50001C1F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6C11C91B725C50001C1F26 /* PBXTargetDependency */,
+			);
+			name = PhotoBombersTests;
+			productName = PhotoBombersTests;
+			productReference = CA6C11C71B725C50001C1F26 /* PhotoBombersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6C11AC1B725C50001C1F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Web-improving";
+				TargetAttributes = {
+					CA6C11B31B725C50001C1F26 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CA6C11C61B725C50001C1F26 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CA6C11B31B725C50001C1F26;
+					};
+				};
+			};
+			buildConfigurationList = CA6C11AF1B725C50001C1F26 /* Build configuration list for PBXProject "PhotoBombers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6C11AB1B725C50001C1F26;
+			productRefGroup = CA6C11B51B725C50001C1F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6C11B31B725C50001C1F26 /* PhotoBombers */,
+				CA6C11C61B725C50001C1F26 /* PhotoBombersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6C11B21B725C50001C1F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6C11C21B725C50001C1F26 /* LaunchScreen.xib in Resources */,
+				CA6C11BF1B725C50001C1F26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6C11C51B725C50001C1F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF69FAF468A0AE536A725A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C3057358DEA9B2F01A0EA41 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6C11B01B725C50001C1F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6C11DC1B726350001C1F26 /* PhotoCell.m in Sources */,
+				CA6C11BD1B725C50001C1F26 /* AppDelegate.m in Sources */,
+				CA6C11D91B725C66001C1F26 /* PhotosViewController.m in Sources */,
+				CA6C11BA1B725C50001C1F26 /* main.m in Sources */,
+				CA6C11E21B728DE7001C1F26 /* PhotoController.m in Sources */,
+				CA6C11E81B729C0C001C1F26 /* PresentDetailtransition.m in Sources */,
+				CA6C11EB1B729F74001C1F26 /* DismissDetailTransition.m in Sources */,
+				CA6C11E51B729509001C1F26 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6C11C31B725C50001C1F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6C11CE1B725C50001C1F26 /* PhotoBombersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6C11C91B725C50001C1F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6C11B31B725C50001C1F26 /* PhotoBombers */;
+			targetProxy = CA6C11C81B725C50001C1F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA6C11C01B725C50001C1F26 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6C11C11B725C50001C1F26 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6C11CF1B725C50001C1F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA6C11D01B725C50001C1F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6C11D21B725C50001C1F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11EFA90F59300E135B81C0CF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoBombers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA6C11D31B725C50001C1F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBB5925B22A1C52E91E7EDE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoBombers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA6C11D51B725C50001C1F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBombersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBombers.app/PhotoBombers";
+			};
+			name = Debug;
+		};
+		CA6C11D61B725C50001C1F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoBombersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoBombers.app/PhotoBombers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6C11AF1B725C50001C1F26 /* Build configuration list for PBXProject "PhotoBombers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6C11CF1B725C50001C1F26 /* Debug */,
+				CA6C11D01B725C50001C1F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6C11D11B725C50001C1F26 /* Build configuration list for PBXNativeTarget "PhotoBombers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6C11D21B725C50001C1F26 /* Debug */,
+				CA6C11D31B725C50001C1F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6C11D41B725C50001C1F26 /* Build configuration list for PBXNativeTarget "PhotoBombersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6C11D51B725C50001C1F26 /* Debug */,
+				CA6C11D61B725C50001C1F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6C11AC1B725C50001C1F26 /* Project object */;
+}

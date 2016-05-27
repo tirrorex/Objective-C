@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E403BC80-AB3C-4A52-9870-0D6601C122A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ribbit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A179F9DA6DFA7A55361BD280254CA49ADD8358C9</key>
+		<string>https://github.com/zipeldiablo/Apps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Objective-C/Ribbit/Ribbit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A179F9DA6DFA7A55361BD280254CA49ADD8358C9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zipeldiablo/Apps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A179F9DA6DFA7A55361BD280254CA49ADD8358C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A179F9DA6DFA7A55361BD280254CA49ADD8358C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
